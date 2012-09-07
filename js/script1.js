@@ -230,7 +230,7 @@ c.lineTo(graph.width(),graph.height());
 c.stroke();
 
 //drawing graph
-c.strokeStyle='#f00';
+c.strokeStyle='#EB6E44';
 c.beginPath();
 c.moveTo(getXPixel(data.values[0].X) , getYPixel(data.values[0].Y ));
 

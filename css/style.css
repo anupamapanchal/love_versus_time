@@ -1,0 +1,123 @@
+html, body, div, span, 
+h1, h2, h3, h4, h5, h6, p, img, ol, ul, li
+{margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent;}
+body {
+	background:  #f6f6f6;
+	
+	color:#393939;
+	}
+ol, ul {list-style:none;}
+:focus {outline:0;}
+#header{width:100%; background:#fff; text-align:center; height:100px; margin-bottom:20px; padding-top:20px;}
+#title {font-size:50px;}
+#wrap{ 
+	width: 850px; 
+	margin-left:auto; 
+	margin-right:auto; 
+	margin-top:auto; 
+	margin:bottom:auto; 
+	display:block;
+	}
+#block1 { width: 425px; float:left;}
+#choice1{width:425px; float:left;}
+#choice1 p{text-align:center;}
+#block3 {width:425px; float:right;}
+#choice2{width:425px; float:right;}
+#choice2 p{text-align:center;}
+li img {  }
+.gallary{
+	width:400px; height:324px;
+		}
+li {
+	float:left;
+	position:relative;
+	display:inline-block;
+	
+	margin:10px;
+	background:#fff;
+	-webkit-box-shadow: 0 0 5px rgba(0,0,0,0.35);
+	-moz-box-shadow: 0 0 5px rgba(0,0,0,0.35);
+	box-shadow: 0 0 5px rgba(0,0,0,0.35);
+	}
+li div {
+	position:absolute; 
+	height:0; 
+	width:80px; 
+	background:rgba(0,0,0,0.45); 
+	overflow:hidden;
+	bottom:0px;
+	left:0px;
+	
+	-webkit-transition:height 1s;
+	-moz-transtion:height 1s;
+	-o-transtion:height 1s;
+	-ms-transtion:height 1s;
+	transition:height 1s;
+	color:#fff;
+	text-align:center;
+	font-size:16px;
+}
+	
+canvas {
+	position:absolute;
+	opacity:1;	
+	-webkit-transition:opacit 1s .2s;
+	-moz-transition:opacity 1s .2s;
+	-o-transition:opacity 1s .2s;
+	-ms-transition:opacity 1s .2s;
+	transition:opacity 1s .2s;
+}
+li:hover canvas {opacity:0;}
+
+li:hover div{height:20px;}
+
+#button{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	text-align:center;
+	font-size:20px;
+	background:#888;
+	color:#fff;
+	width:100%;
+	display:inline-block;
+}
+
+#new{
+width:100%;
+text-align:center;
+height:20px;
+background:#000;
+color:#fff;
+display:none;}
+
+#button1{
+	width:100%;
+	margin-left: auto;
+	margin-right:auto;
+	display:none;
+	margin-bottom:20px;
+	text-align:center;
+	font-size:20px;
+	background:#888;
+	color:#fff;
+}
+
+#divGraph
+{
+	width:400px;
+	height:400px;
+	display:none;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+#graph{
+	width:300px;
+	height:300px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	background:#fff;
+}
+

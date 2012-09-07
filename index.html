@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title> Love Versus Time of Zodiacs</title>
+    <meta name="description" content="know this before you enter in a relationship...">
+    <meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/script1.js"></script>
+</head>
+<body>
+	<div id="header">
+	<h1 onclick="toggle()" id="title">
+		Love Versus Time of Zodiacs
+	</h1>
+	<p id="tip">
+		Know this before you enter in any relationship...
+	</p>	
+	</div>
+	
+	<div id="main">
+	<div id="wrap"> 
+	<div id="block1">
+		<div id ="choice1">
+			<p>Choose your sign</p>
+		</div>
+		<ul class="gallary">
+		<li onclick="getChoice1('aries')"><img src="images/aries.jpg"><div>Aries</div></li>
+		<li onclick="getChoice1('taurus')"><img src="images/taurus.jpg"><div>Taurus</div></li>
+		<li onclick="getChoice1('gemini')"><img src="images/gemini.jpg"><div>Gemini</div></li>
+		<li onclick="getChoice1('cancer')"><img src="images/cancer.jpg"><div>Cancer</div></li>
+		<li onclick="getChoice1('leo')"><img src="images/leo.jpg"><div>Leo</div></li>
+		<li onclick="getChoice1('virgo')"><img src="images/virgo.jpg"><div>Virgo</div></li>
+		<li onclick="getChoice1('libra')"><img src="images/libra.jpg"><div>Libra</div></li>
+		<li onclick="getChoice1('sagittarius')"><img src="images/sagittarius.jpg"><div>Sagittarius</div></li>
+		<li onclick="getChoice1('capricorn')"><img src="images/capricorn.jpg"><div>Capricorn</div></li>
+		<li onclick="getChoice1('scorpio')"><img src="images/scorpio.jpg"><div>Scorpio</div></li>
+		<li onclick="getChoice1('aquarius')"><img src="images/aquarius.jpg"><div>Aquarius</div></li>
+		<li onclick="getChoice1('pisces')"><img src="images/pisces.jpg" ><div>Pisces</div></li>
+		</ul>
+		</div>
+		<div id="block3">
+		<div id="choice2">
+			<p>Choose your partners sign</p>
+		</div>
+		<ul class="gallary">
+		<li onclick="getChoice2('aries')"><img src="images/aries.jpg"><div>Aries</div></li>
+		<li onclick="getChoice2('taurus')"><img src="images/taurus.jpg"><div>Taurus</div></li>
+		<li onclick="getChoice2('gemini')"><img src="images/gemini.jpg"><div>Gemini</div></li>
+		<li onclick="getChoice2('cancer')"><img src="images/cancer.jpg"><div>Cancer</div></li>
+		<li onclick="getChoice2('leo')"><img src="images/leo.jpg"><div>Leo</div></li>
+		<li onclick="getChoice2('virgo')"><img src="images/virgo.jpg"><div>Virgo</div></li>
+		<li onclick="getChoice2('libra')"><img src="images/libra.jpg"><div>Libra</div></li>
+		<li onclick="getChoice2('sagittarius')"><img src="images/sagittarius.jpg"><div>Sagittarius</div></li>
+		<li onclick="getChoice2('capricorn')"><img src="images/capricorn.jpg"><div>Capricorn</div></li>
+		<li onclick="getChoice2('scorpio')"><img src="images/scorpio.jpg"><div>Scorpio</div></li>
+		<li onclick="getChoice2('aquarius')"><img src="images/aquarius.jpg"><div>Aquarius</div></li>
+		<li onclick="getChoice2('pisces')"><img src="images/pisces.jpg" ><div>Pisces</div></li>
+		</div>
+		<div id="button">
+			<p onclick="displayDiv()">Tell me..</p>
+		</div>
+		<div id="new"></div>
+	</div>
+	<div id="button1" onclick="toggle()">Back</div>
+	</div>
+	<div id="divGraph">
+		<canvas id="graph" width="300" height="300"></canvas>
+	</div>
+		
+	
+</body>
+</html>
